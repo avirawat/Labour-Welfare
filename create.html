@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Creation Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="create.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  </head>
+  <body>
+    <h1>Enter your details to create account</h1>
+       <h2><i>Labours are real sustainer of society</i></h2>
+    <div class="container-fluid">
+  <form action="create.php" method="POST" class="form">
+    <h3><input type="checkbox" name="record" value="contractor">Contractor
+  <input type="checkbox" name="record" value="employee"> Employee
+    </h3>
+  <h3>Name<br><input class  = "name" type="text" name="name" value="" placeholder="Enter your name" required><br></h3>
+  <h3>UserId<br><input class  = "name" type="text" name="userid" value="" placeholder="Create user id" ><br></h3>
+  <h3>Password<br><input class  = "name" type="text" name="password" value="" placeholder="Enter password" required><br></h3> 
+  <h3>Email(optional)<br><input class = "name" type="text" name="email" value="" placeholder="Enter your Email"><br></h3>
+   <h3>Age<br><input class = "name" type="number" name="age" value="" placeholder="Enter your Age" required><br></h3>
+  <h3>Gender<br><br>
+    <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="unknown"> Other
+  </h3>
+   <h3>Mobile number<br><input class = "name" type="text" name="mobileno" value="" placeholder="Enter your mobile number" required><br></h3>
+  
+<h3>Address(city)<br><input class= "name" type="text" name="role" value="" placeholder="Enter your address" required><br></h3>
+
+
+<input type="submit" value="submit" class="block"></br>
+
+<h3>*optional field only for employee</h3>
+  </form>
+  </div>
+  </body>
+</html>
+            
